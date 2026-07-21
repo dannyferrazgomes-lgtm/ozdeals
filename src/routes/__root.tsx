@@ -84,14 +84,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Encontre as melhores ofertas, cupons e promoções da Shopee e Mercado Livre. Tecnologia, casa, moda e muito mais, com descontos atualizados diariamente.",
       },
-      { property: "og:title", content: "OZ Deals — Ofertas Shopee e Mercado Livre" },
+      { property: "og:title", content: "OZ Deals — As Melhores Ofertas da Shopee e Mercado Livre" },
       {
         property: "og:description",
-        content: "Promoções relâmpago, cupons exclusivos e produtos em alta em um só lugar.",
+        content: "Encontre as melhores ofertas, cupons e promoções da Shopee e Mercado Livre. Tecnologia, casa, moda e muito mais, com descontos atualizados diariamente.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#FF6A00" },
+      { name: "twitter:title", content: "OZ Deals — As Melhores Ofertas da Shopee e Mercado Livre" },
+      { name: "twitter:description", content: "Encontre as melhores ofertas, cupons e promoções da Shopee e Mercado Livre. Tecnologia, casa, moda e muito mais, com descontos atualizados diariamente." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/001cafcb-36fa-419d-bb77-b828982aa4c4/id-preview-821ceaed--df2fa10d-43d0-4081-936d-790a84f7d94d.lovable.app-1784589067477.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/001cafcb-36fa-419d-bb77-b828982aa4c4/id-preview-821ceaed--df2fa10d-43d0-4081-936d-790a84f7d94d.lovable.app-1784589067477.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
